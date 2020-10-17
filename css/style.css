@@ -14,7 +14,7 @@ html{
 }
 
 body{
-	width: 100vh;
+	width: 100%;
 	height: auto;
 	margin: auto;
 
@@ -25,12 +25,10 @@ body{
 }
 
 header{
-	width: 100vh;
-	height: 150px;
-
+	width: 100%;
+	height: auto;
 	display: flex;
 	flex-flow: column wrap;
-
 }
 
 .header_sup{
@@ -193,7 +191,7 @@ h1{
 
 
 nav{
-	width: 100%;
+	width: 80%;
 	display: flex;
 	justify-content: center;
 	padding: 10px 0;
@@ -447,7 +445,7 @@ h2{
 
 .plan{
 	width: 300px;
-	height: calc(auto + 20px);
+	height: auto;
 	
 	background-color: blue;
 	color: #FFF;
